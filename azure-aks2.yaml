@@ -13,8 +13,8 @@ spec:
         app: my-python-app
     spec:
       containers:
-      - name: mypythondockerrepo
-        image: ncplregistry.azurecr.io/rajcocvs/mypythondockerrepo:latest
+      - name: pythondockerrepo
+        image: myregistryy.azurecr.io/ayeshanaaz1103/pythondockerrepo
         ports:
         - containerPort: 5000
 # service type loadbalancer       
